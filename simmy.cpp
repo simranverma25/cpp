@@ -48,10 +48,11 @@ int main() {
     //     break;
     // }
 
-     int month = 3;
+    //  int month = 3;
 
-     (month>8)?cout<<"valid for entry":cout<<"not valid for entry";
+    //  (month>8)?cout<<"valid for entry":cout<<"not valid for entry";
 
+    cout << "print hello world" << endl;
     
     return 0;
 }
