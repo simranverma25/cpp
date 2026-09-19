@@ -59,11 +59,19 @@ int main() {
     //     cout<<"iteration"<<i<<endl;
     // }
 
-    int i = 1;
-    while (i<=6){
-        cout<<i<<endl;
-        i=i+1;
+    // int i = 1;
+    // while (i<=6){
+    //     cout<<i<<endl;
+    //     i=i+1;
+    // }
+int count = 20;
+int i = 1;
+    do {
+        cout<<"iteration"<<i<<endl;
+        i++;
     }
+    while(i<=count);
+
     
     
     return 0;
