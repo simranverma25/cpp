@@ -64,13 +64,24 @@ int main() {
     //     cout<<i<<endl;
     //     i=i+1;
     // }
-int count = 20;
-int i = 1;
-    do {
-        cout<<"iteration"<<i<<endl;
-        i++;
-    }
-    while(i<=count);
+// int count = 20;
+// int i = 1;
+//     do {
+//         cout<<"iteration"<<i<<endl;
+//         i++;
+//     }
+//     while(i<=count);
+
+int n , sum = 0,r;
+printf("enter a no.: ");
+scanf("%d",&n);
+while(n>0){
+    r=n%10;
+    sum=sum+r;
+    n=n/10;
+}
+printf("sum of digit : %d",sum);
+
 
     
     
