@@ -52,7 +52,19 @@ int main() {
 
     //  (month>8)?cout<<"valid for entry":cout<<"not valid for entry";
 
-    cout << "print hello world" << endl;
+    // cout << "print hello world" << endl;
+
+    // for(int i = 1; i < 10; i++)
+    // {
+    //     cout<<"iteration"<<i<<endl;
+    // }
+
+    int i = 1;
+    while (i<=6){
+        cout<<i<<endl;
+        i=i+1;
+    }
+    
     
     return 0;
 }
