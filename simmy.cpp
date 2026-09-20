@@ -72,15 +72,31 @@ int main() {
 //     }
 //     while(i<=count);
 
-int n , sum = 0,r;
-printf("enter a no.: ");
-scanf("%d",&n);
-while(n>0){
-    r=n%10;
-    sum=sum+r;
-    n=n/10;
+// int n , sum = 0,r;
+// printf("enter a no.: ");
+// scanf("%d",&n);
+// while(n>0){
+//     r=n%10;
+//     sum=sum+r;
+//     n=n/10;
+// }
+// printf("sum of digit : %d",sum);
+int arr [5];
+cin>>arr[3];
+cin>>arr[2];
+
+for (int i = 0; i <=5; i++)
+{
+    cin>>arr[i];
+    cout<<endl;
 }
-printf("sum of digit : %d",sum);
+for (int i = 0; i <=4; i++)
+{
+    cout<<arr[i]<<" ";
+}
+
+
+
 
 
     
