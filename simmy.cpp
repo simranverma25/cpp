@@ -81,19 +81,29 @@ int main() {
 //     n=n/10;
 // }
 // printf("sum of digit : %d",sum);
-int arr [5];
-cin>>arr[3];
-cin>>arr[2];
+// int arr [5];
+// cin>>arr[3];
+// cin>>arr[2];
 
-for (int i = 0; i <=5; i++)
-{
-    cin>>arr[i];
-    cout<<endl;
-}
-for (int i = 0; i <=4; i++)
-{
-    cout<<arr[i]<<" ";
-}
+// for (int i = 0; i <=5; i++)
+// {
+//     cin>>arr[i];
+//     cout<<endl;
+// }
+// for (int i = 0; i <=4; i++)
+// {
+//     cout<<arr[i]<<" ";
+// }.
+
+int a ;
+int b ;
+
+cout<<"enter a and b : "<<endl;
+cin>>a;
+cin>>b;
+cout<<"sum of a and b :"<<a+b<<endl;
+
+
 
 
 
