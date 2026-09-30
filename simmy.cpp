@@ -95,21 +95,20 @@ int main() {
 //     cout<<arr[i]<<" ";
 // }.
 
+// int a ;
+// int b ;
+
+// cout<<"enter a and b : "<<endl;
+// cin>>a;
+// cin>>b;
+// cout<<"sum of a and b :"<<a+b<<endl;
+
 int a ;
-int b ;
-
-cout<<"enter a and b : "<<endl;
+cout<<"enter a: "<<endl;
 cin>>a;
-cin>>b;
-cout<<"sum of a and b :"<<a+b<<endl;
+cout << a ;
 
-
-
-
-
-
-
-    
     
     return 0;
 }
+    
