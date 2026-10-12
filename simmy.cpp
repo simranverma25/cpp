@@ -125,13 +125,17 @@ int main() {
 // cin>>a;
 // (a%2==0)?cout<<"num is even":cout<<"num is odd";
 
-int a ;
-int b ;
-cout << "enter a and b :"<<endl;
-cin>>a;
-cin>>b;
-(a>b)?cout<<"a is larger":cout<<"b is larger";
+// int a ;
+// int b ;
+// cout << "enter a and b :"<<endl;
+// cin>>a;
+// cin>>b;
+// (a>b)?cout<<"a is larger":cout<<"b is larger";
 
+int age;
+cout<<"Enter your age: "<<endl;
+cin>>age;
+(age>=18)?cout<<"you are eligible":cout<<"you are not eligible";
     return 0;
 }
     
