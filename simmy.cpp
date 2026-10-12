@@ -144,13 +144,23 @@ int main() {
 // cin>>b;
 // (a<b)?cout<<"smaller one is "<<a:cout<<"smaller one is "<<b;
 
-int num;
-cout<<"enter num"<<endl;
-cin>>num;
-int absvalue = (num<0)? - num : num;
+// int num;
+// cout<<"enter num"<<endl;
+// cin>>num;
+// int absvalue = (num<0)? - num : num;
 
-std::cout<<absvalue<<std::endl;
+// std::cout<<absvalue<<std::endl;
 
+
+int a;
+int b;
+int c;
+cout<<"enter a and b and c :"<<endl;
+cin>>a;
+cin>>b;
+cin>>c;
+int largest = (a>b)?((a>c)?a:c):((b>c)?b:c);
+std :: cout<<largest;
 
 
 
