@@ -137,12 +137,24 @@ int main() {
 // cin>>age;
 // (age>=18)?cout<<"you are eligible":cout<<"you are not eligible";
 
-int a;
-int b;
-cout<<"Enter a ans b :"<<endl;
-cin>>a;
-cin>>b;
-(a<b)?cout<<"smaller one is "<<a:cout<<"smaller one is "<<b;
+// int a;
+// int b;
+// cout<<"Enter a ans b :"<<endl;
+// cin>>a;
+// cin>>b;
+// (a<b)?cout<<"smaller one is "<<a:cout<<"smaller one is "<<b;
+
+int num;
+cout<<"enter num"<<endl;
+cin>>num;
+int absvalue = (num<0)? - num : num;
+
+std::cout<<absvalue<<std::endl;
+
+
+
+
+
     return 0;
 }
     
