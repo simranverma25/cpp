@@ -103,12 +103,21 @@ int main() {
 // cin>>b;
 // cout<<"sum of a and b :"<<a+b<<endl;
 
-int a ;
-cout<<"enter a: "<<endl;
-cin>>a;
-cout << a ;
+// int a ;
+// cout<<"enter a: "<<endl;
+// cin>>a;
+// cout << a ;
 
-    
+int num;
+cout<<"Enter a num : "<<endl;
+cin>>num;
+if(num>0){
+    cout<<"number is positive"<<endl;
+
+}
+   else {
+    cout<<"number is negative"<<endl;
+   } 
     return 0;
 }
     
