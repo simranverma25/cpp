@@ -162,28 +162,37 @@ int main() {
 // int largest = (a>b)?((a>c)?a:c):((b>c)?b:c);
 // std :: cout<<largest;
 
-int marks;
-cout<<"enter your marks : "<<endl;
-cin>>marks;
-if (marks>40){
-    cout<<"pass"<<endl;
-}
-else{
-    cout<<"Fail"<<endl;
-}
-if (marks>95){
-    cout<<"Excelent"<<endl;
+// int marks;
+// cout<<"enter your marks : "<<endl;
+// cin>>marks;
+// if (marks>40){
+//     cout<<"pass"<<endl;
+// }
+// else{
+//     cout<<"Fail"<<endl;
+// }
+// if (marks>95){
+//     cout<<"Excelent"<<endl;
 
-}
-else if (marks>75)
-{
-    cout<<"Good"<<endl;
-}
-else if(marks<40){
-    cout<<"pass"<<endl;
-}
+// }
+// else if (marks>75)
+// {
+//     cout<<"Good"<<endl;
+// }
+// else if(marks<40){
+//     cout<<"pass"<<endl;
+// }
 
 
+int year;
+cout<<"enter a year"<<endl;
+cin>>year;
+if((year%4==0)&&(year%100!=0)||(year%400==0)){
+    cout<<"this year is leap year"<<endl;
+}
+else {
+    cout<<"this year is not leap year"<<endl;
+}
 
 
 
