@@ -108,16 +108,23 @@ int main() {
 // cin>>a;
 // cout << a ;
 
-int num;
-cout<<"Enter a num : "<<endl;
-cin>>num;
-if(num>0){
-    cout<<"number is positive"<<endl;
+// int num;
+// cout<<"Enter a num : "<<endl;
+// cin>>num;
+// if(num>0){
+//     cout<<"number is positive"<<endl;
 
-}
-   else {
-    cout<<"number is negative"<<endl;
-   } 
+// }
+//    else {
+//     cout<<"number is negative"<<endl;
+//    }
+
+
+int a ;
+cout<<"enter a: "<<endl;
+cin>>a;
+(a%2==0)?cout<<"num is even":cout<<"num is odd";
+
     return 0;
 }
     
