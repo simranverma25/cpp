@@ -132,10 +132,17 @@ int main() {
 // cin>>b;
 // (a>b)?cout<<"a is larger":cout<<"b is larger";
 
-int age;
-cout<<"Enter your age: "<<endl;
-cin>>age;
-(age>=18)?cout<<"you are eligible":cout<<"you are not eligible";
+// int age;
+// cout<<"Enter your age: "<<endl;
+// cin>>age;
+// (age>=18)?cout<<"you are eligible":cout<<"you are not eligible";
+
+int a;
+int b;
+cout<<"Enter a ans b :"<<endl;
+cin>>a;
+cin>>b;
+(a<b)?cout<<"smaller one is "<<a:cout<<"smaller one is "<<b;
     return 0;
 }
     
