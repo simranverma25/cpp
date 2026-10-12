@@ -120,10 +120,17 @@ int main() {
 //    }
 
 
+// int a ;
+// cout<<"enter a: "<<endl;
+// cin>>a;
+// (a%2==0)?cout<<"num is even":cout<<"num is odd";
+
 int a ;
-cout<<"enter a: "<<endl;
+int b ;
+cout << "enter a and b :"<<endl;
 cin>>a;
-(a%2==0)?cout<<"num is even":cout<<"num is odd";
+cin>>b;
+(a>b)?cout<<"a is larger":cout<<"b is larger";
 
     return 0;
 }
